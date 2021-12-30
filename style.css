@@ -1,0 +1,14 @@
+:root {
+  box-sizing: border-box;
+  font-family: Montserrat;
+  --white-color: #ffffff;
+  --body-color: #f5f7fa;
+  --sidebar-color: #1e2939;
+  --sidebar-text-color: #fffffff5;
+  --style-color: #ff6b08;
+  --link-color: #9ba2ad;
+  --header-footer-color: #c0bcbc;
+  scroll-behavior: smooth;
+}
+
+
