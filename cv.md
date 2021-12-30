@@ -33,15 +33,17 @@ I am a person who is constantly developing, engaged in training. I have a techni
 ## Code Example
 
 ```
-let sumArray = function(array) {
-   if (array.length === 1) {
-     return array[0];
-   }
-   else {
-     return array.pop() + sumArray(array);
-   }
+function deepCount(arr) {
+  for (let index = 0; index < arr.length; index++) {
+    if (Array.isArray(arr[index])) {
+      let newArr = arr[index];
+      arr.splice(index, 1, "");
+      arr = arr.concat(newArr)
+      index = 0;
+    }
+  }
+return arr.length
 };
-console.log(array_sum([1,2,3,4,5,6]))
 ```
 
 ---
