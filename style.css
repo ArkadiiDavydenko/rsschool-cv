@@ -38,7 +38,7 @@ body {
 
 .h1-style {
   padding-top: 0.5em;
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 
 .h2-style {
@@ -154,6 +154,10 @@ body {
   padding-bottom: 1em;
 }
 
+.universaty-education {
+  padding-bottom: 2em;
+}
+
 /* footer -----------------------------*/
 .footer {
   display: flex;
@@ -175,4 +179,31 @@ body {
 
 .footer-icon {
   width: 5em;
+}
+
+@media (min-width: 1200px) {
+  .wrapper {
+    width: 100vw;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
+
+@media (max-width: 768px) {
+  .navigation {
+    display: flex;
+    flex-direction: column;
+  }
+  .wrapper {
+    width: 100vw;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: nowrap; */
+  }
 }
