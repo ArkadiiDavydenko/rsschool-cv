@@ -182,6 +182,11 @@ body {
 }
 
 @media (min-width: 1200px) {
+  body {
+    font-size: 1.5rem;
+    background-color: var(--body-color);
+  }
+
   .wrapper {
     width: 100vw;
   }
@@ -197,6 +202,7 @@ body {
     display: flex;
     flex-direction: column;
   }
+
   .wrapper {
     width: 100vw;
   }
@@ -204,6 +210,5 @@ body {
   .container {
     display: flex;
     flex-direction: column;
-    /* flex-wrap: nowrap; */
   }
 }
