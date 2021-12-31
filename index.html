@@ -117,17 +117,16 @@
           <section class="main-section info-container">
             <h3 id="code-example" class="h3-style">Code Example</h3>
             <pre> <code>
-function deepCount(arr) {
-  for (let i = 0; i < arr.length; i++) {
-    if (Array.isArray(arr[i])) {
-      let newArr = arr[i];
-      arr.splice(i, 1, "");
-      arr = arr.concat(newArr)
-      i = 0;
-    };
-  };
-  return arr.length
+let sumArray = function(array) {
+  if (array.length === 1) {
+    return array[0];
+  }
+  else {
+    return array.pop() + sumArray(array);
+  }
 };
+
+console.log(array_sum([1,2,3,4,5,6]));
           </code></pre>
           </section>
           <section class="main-section info-container">
