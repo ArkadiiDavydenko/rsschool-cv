@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Davydenko Arkadii CV</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="header__navigation">
+          <ul class="navigation">
+            <li><a href="#about-me">About me</a></li>
+            <li><a href="#code-example">Code example</a></li>
+            <!-- <li><a href="#projects">Projects</a></li> -->
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#languages">Languages</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="container">
+        <aside class="sidebar">
+          <img class="my-photo" src="./img/My_photo.jpg" alt="My_photo" />
+          <section class="sidebar-section">
+            <h3 class="h3-style" id="contacts">Contacts</h3>
+            <ul class="sidebar-section__contact">
+              <li>
+                <span>Phone:</span>
+                <a class="contact-link" href="tel:79534244481"
+                  >+7 953 424 44 81</a
+                >
+              </li>
+              <li>
+                <span>Email:</span>
+                <a
+                  class="contact-link"
+                  href="mailto:arkadii.davydenko@gmail.com"
+                >
+                  arkadii.davydenko@gmail.com</a
+                >
+              </li>
+              <li>
+                <span>GitHub:</span>
+                <a class="contact-link" href="https://github.com/">
+                  ArkadiiDavydenko</a
+                >
+              </li>
+              <li>
+                <div>
+                  <span>Telegram:</span>
+                  <a class="contact-link" href="https://t.me/Arkadii_Davydenko">
+                    Arkadii_Davydenko</a
+                  >
+                </div>
+              </li>
+            </ul>
+          </section>
+          <section class="sidebar-section">
+            <h3 class="h3-style" id="skills">Skills</h3>
+            <ul class="sidebar-section__ability title-item_colored">
+              <li>
+                <span>HTML5</span>
+              </li>
+              <li>
+                <span>CSS3</span>
+              </li>
+              <li>
+                <span>JavaScript</span>
+              </li>
+              <li>
+                <span>Git</span>
+              </li>
+            </ul>
+          </section>
+          <section class="sidebar-section">
+            <h3 class="h3-style" id="languages">Languages</h3>
+            <ul class="sidebar-section__ability title-item_colored">
+              <li>
+                <span>Russian - native speaker</span>
+              </li>
+              <li>
+                <span>English - B1 (B2 in process…)</span>
+              </li>
+            </ul>
+          </section>
+        </aside>
+        <main class="main">
+          <section class="main-section info-container">
+            <h2 class="h2-style">Front-End Developer</h2>
+            <h1 class="h1-style">Arkadii Davydenko</h1>
+          </section>
+          <section class="main-section info-container">
+            <h3 id="about-me" class="h3-style">About Me</h3>
+            <div>
+              <p class="about-me-text">
+                I work as a research engineer in the defense industry. This
+                profession has given me a lot of experience in conducting
+                complex engineering projects, coordinating them, and the ability
+                to work with technical documentation. At this stage, I do not
+                see any new prospects for myself in this area.
+              </p>
+              <p>
+                I am a person who is constantly developing, engaged in training.
+                I have a technical and analytical mindset, and the IT sphere has
+                always been close and interesting to me, and now I see my growth
+                in this direction. In addition, IT for me is an opportunity for
+                self-development, world progress, motivation and a decent level
+                of remuneration. Therefore, at the moment I am studying at RS
+                school on Frontend Development.
+              </p>
+            </div>
+          </section>
+          <section class="main-section info-container">
+            <h3 id="code-example" class="h3-style">Code Example</h3>
+            <pre> <code>
+let sumArray = function(array) {
+  if (array.length === 1) {
+    return array[0];
+  }
+  else {
+    return array.pop() + sumArray(array);
+  }
+};
+
+console.log(array_sum([1,2,3,4,5,6]));
+          </code></pre>
+          </section>
+          <section class="main-section info-container">
+            <h3 id="education" class="h3-style">Education</h3>
+            <div class="universaty-education">
+              <h4 class="h4-style">
+                <span>Tula State University</span>
+              </h4>
+              <h5 class="h5-style">Faculty of Mining and Construction</h5>
+              <span>September 2007 - June 2012 Russia </span>
+            </div>
+          </section>
+        </main>
+      </div>
+      <footer class="footer">
+        <div class="footer-item">
+          <a class="footer-item_my-link" href="https://github.com/">
+            My GitHub
+          </a>
+        </div>
+        <div class="footer-item">&copy; 2021</div>
+        <div class="footer-item">
+          <a href="https://rs.school/js/" target="_blank"
+            ><img
+              class="footer-icon"
+              src="./img/rs_school_js.svg"
+              alt="The Rolling Scopes Logo"
+          /></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
