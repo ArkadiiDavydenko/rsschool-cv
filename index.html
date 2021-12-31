@@ -117,44 +117,46 @@
           <section class="main-section info-container">
             <h3 id="code-example" class="h3-style">Code Example</h3>
             <pre> <code>
-let sumArray = function(array) {
-  if (array.length === 1) {
-    return array[0];
-  }
-  else {
-    return array.pop() + sumArray(array);
-  }
+function deepCount(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    if (Array.isArray(arr[i])) {
+      let newArr = arr[i];
+      arr.splice(i, 1, "");
+      arr = arr.concat(newArr)
+      i = 0;
+    };
+  };
+  return arr.length
 };
-
-console.log(array_sum([1,2,3,4,5,6]));
           </code></pre>
           </section>
           <section class="main-section info-container">
-          <h3 id="education" class="h3-style">Education</h3>
-          <div class="universaty-education">
-            <h4 class="h4-style">
-              <span>Tula State University</span>
-            </h4>
-            <h5 class="h5-style">Faculty of Mining and Construction</h5>
-            <span
-              >September 2007 - June 2012
-              <span|</span> Russia
-            </span>
-          </div>
-        </section>
+            <h3 id="education" class="h3-style">Education</h3>
+            <div class="universaty-education">
+              <h4 class="h4-style">
+                <span>Tula State University</span>
+              </h4>
+              <h5 class="h5-style">Faculty of Mining and Construction</h5>
+              <span>September 2007 - June 2012 Russia </span>
+            </div>
+          </section>
         </main>
       </div>
-            <footer class="footer">
-        <div class="footer-item"><a class="footer-item_my-link" href="https://github.com/">
-          My GitHub
-        </a></div>
+      <footer class="footer">
+        <div class="footer-item">
+          <a class="footer-item_my-link" href="https://github.com/">
+            My GitHub
+          </a>
+        </div>
         <div class="footer-item">&copy; 2021</div>
-        <div class="footer-item"><a href="https://rs.school/js/" target="_blank"
-          ><img
-            class="footer-icon"
-            src="./img/rs_school_js.svg"
-            alt="The Rolling Scopes Logo"
-        /></a></div>
+        <div class="footer-item">
+          <a href="https://rs.school/js/" target="_blank"
+            ><img
+              class="footer-icon"
+              src="./img/rs_school_js.svg"
+              alt="The Rolling Scopes Logo"
+          /></a>
+        </div>
       </footer>
     </div>
   </body>
