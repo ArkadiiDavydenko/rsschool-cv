@@ -1,10 +1,12 @@
 rsschool-cv
 Arkadii Davydenko
+
 My Contact Info:
 Phone: +7 953 424-44-81
 E-mail: arkadii.davydenko@gmail.com
 GitHub: ArkadiiDavydenko
 Telegram Arkadii_Davydenko
+
 About Me
 I work as a research engineer in the defense industry. This profession has given me a lot of experience in conducting complex engineering projects, coordinating them, and the ability to work with technical documentation. At this stage, I do not see any new prospects for myself in this area.
 
