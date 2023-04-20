@@ -1,23 +1,38 @@
-rsschool-cv
-Arkadii Davydenko
+## **[rsschool-cv](https://ArkadiiDavydenko.github.io/rsschool-cv/cv)**
 
-My Contact Info:
-Phone: +7 953 424-44-81
-E-mail: arkadii.davydenko@gmail.com
-GitHub: ArkadiiDavydenko
-Telegram Arkadii_Davydenko
+---
 
-About Me
+# **Arkadii Davydenko**
+
+---
+
+## My Contact Info:
+
+- **Phone:** +7 953 424-44-81
+- **E-mail:** arkadii.davydenko@gmail.com
+- **GitHub:** [ArkadiiDavydenko](https://github.com/)
+- **Telegram** [Arkadii_Davydenko](https://t.me/Arkadii_Davydenko)
+
+---
+
+## About Me
+
 I work as a research engineer in the defense industry. This profession has given me a lot of experience in conducting complex engineering projects, coordinating them, and the ability to work with technical documentation. At this stage, I do not see any new prospects for myself in this area.
 
 I am a person who is constantly developing, engaged in training. I have a technical and analytical mindset, and the IT sphere has always been close and interesting to me, and now I see my growth in this direction. In addition, IT for me is an opportunity for self-development, world progress, motivation and a decent level of remuneration. Therefore, at the moment I am studying at RS school on Frontend Development.
 
-Skills
-HTML
-CSS
-JavaScript (Basic)
-Git/GitHub
-Code Example
+## Skills
+
+- HTML
+- CSS
+- JavaScript (Basic)
+- Git/GitHub
+
+---
+
+## Code Example
+
+```
 function deepCount(arr) {
   for (let index = 0; index < arr.length; index++) {
     if (Array.isArray(arr[index])) {
@@ -29,10 +44,18 @@ function deepCount(arr) {
   }
 return arr.length
 };
-Education
-Tula State University
-Faculty of Mining and Construction
+```
 
-Languages
-Russian - native speaker.
-English - B1+ (B2 in process…)
+---
+
+## Education
+
+**Tula State University**\
+_Faculty of Mining and Construction_
+
+---
+
+## Languages
+
+- Russian - native speaker.
+- English - B1+ (B2 in process…)
